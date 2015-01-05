@@ -1,0 +1,276 @@
+<?xml version="1.0" standalone="yes"?>
+<svg 
+  xmlns="http://www.w3.org/2000/svg" 
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  version="1.1" 
+  baseProfile="tiny" 
+  width="105mm" 
+  height="148mm" 
+  viewBox="0 0 105mm 148mm"
+  preserveAspectRatio="xMidYMid meet">
+	<title>DPD Parcel Label</title>
+	<desc>
+	  A DPD Parcel Label according to the DPD Parcel Label Specifications V2.4.
+	  A6 Format: 105mm x 148mm
+	</desc>
+	<defs>
+	  <svg id="logo" height="6.2mm" width="12.16mm" viewBox="-230 -68 304 155">
+	    <title>DPD Logo</title>
+		<path
+		  id="logoBoxBlack"
+		  d="M 48,-27 48,28 0,55 -48,28 -48,-27 0,-55 z"
+		  fill="black"
+		/>
+		<path
+		  id="logoBoxWhite"
+		  d="M 32,-24 0,-5 -32,-24 0,-42 z M 37,-15 37,22 5,40 5,4 z M -5,4 -5,40 -37,22 -37,-15 z"
+		  fill="white"
+		/>
+		<path
+		  id="logoArrows"
+		  d = "M -32,-68 -17,-58 -59,-33 -59,16 -74,8 -74,-44 z M 32,-68 17,-58 59,-33 59,16 74,8 74,-44 z M 42,44 42,63 0,87 -42,63 -42,44 0,68 z"
+		  fill="grey"
+		/>
+		<path
+		  id="logoTextBlack"
+		  d = "M -230,-45 -230,5 -207,5 C -195,5 -185,-5 -185,-20 C -185,-35 -195,-45 -207,-45 z 
+		         M -179,-45 -179,5 -167,5 -167,-11 -154,-11 C -143,-11 -138,-21 -138,-28 C -138,-35 -143,-45 -154,-45 z 
+				 M -130,-45 -130,5 -107,5 C -95,5 -85,-5 -85,-20 C -85,-35 -95,-45 -107,-45 z"
+		  fill="black"
+		/>
+		<path
+		  id="logoTextWhite"
+		  d = "M -218,-34 -218,-6 -210,-6 C -201,-6 -196,-11 -196,-20 C -196,-29 -201,-34 -210,-34 z 
+		         M -167,-34 -167,-21 -156,-21 C -150,-21 -150,-26 -150,-28 C -150,-29 -150,-34 -156,-34 z
+		         M -118,-34 -118,-6 -110,-6 C -101,-6 -96,-11 -96,-20 C -96,-29 -101,-34 -110,-34 z"
+		  fill="white"
+		/>
+	  </svg>
+	  <g id="depotAddress" 
+	    fill="black" 
+		font-family="sans-serif"
+		font-size="1.5mm"
+		width="35mm" 
+		height="13mm" 
+		viewBox="0 0 35mm 13mm"
+		transform="rotate(90)">
+		<title>Dispatch depot address</title>
+		<desc>
+		  Contains information about the sending (responsible) depot
+		</desc>
+		<text id="depotAddressHeader" x="1mm" y="2mm">
+		  Depot <tspan id="depotAddressNumber">0530</tspan>
+		</text>
+		<text id="depotAddressName1" x="1mm" y="4mm">
+		  DPD (Belgium) NV
+		</text>
+		<text id="depotAddressAddress1" x="1mm" y="6mm">
+		  Egide Walschaertsstraat 20
+		</text>
+		<text id="depotAddressLocation" x="1mm" y="8mm">
+		  <tspan id="depotAddressLocationCountry">BE</tspan>-<tspan id="depotAddressLocationPostCode">2800</tspan> <tspan id="depotAddressLocationCity">Mechelen</tspan>
+		</text>
+		<text id="depotAddressPhone" x="1mm" y="10mm">
+	      +32 (0)15 40 60 00
+	    </text>
+	  </g>
+	  <g id="shipperAddress" 
+	    fill="black" 
+		font-family="sans-serif"
+		font-size="1.5mm"
+		width="35mm" 
+		height="16mm" 
+		viewBox="0 0 35mm 16mm"
+		transform="rotate(90)">
+		<title>Dispatch depot address</title>
+		<desc>
+		  Contains information about the sending (responsible) depot
+		</desc>
+		<text id="shipperAddressHeader" x="1mm" y="2mm">
+		  Shipper
+		</text>
+		<text id="shipperAddressName1" x="1mm" y="4mm">
+		  Michiel Van Gucht
+		</text>
+		<text id="shipperAddressName2" x="1mm" y="6mm">
+		  IT Test Shipper
+		</text>
+		<text id="depotAddressAddress1" x="1mm" y="8mm">
+		  Kerkstraat 28
+		</text>
+		<text id="shipperAddressLocation" x="1mm" y="10mm">
+		  <tspan id="shipperAddressLocationCountry">BE</tspan>-<tspan id="shipperAddressLocationPostCode">2800</tspan> <tspan id="shipperAddressLocationCity">Mechelen</tspan>
+		</text>
+		<text id="shipperAddressPhone" x="1mm" y="12mm">
+	      +32 (0)15 40 60 00
+	    </text>
+	  </g>
+	</defs>
+    <g id="grid" stroke="black" stroke-width="1" >
+	  <title>Grid</title>
+	  <desc>
+	    All the lines on the label.
+	  </desc>
+	  <line x1="5mm" y1="11mm" x2="100mm" y2="11mm" />
+	  <line x1="5mm" y1="46mm" x2="100mm" y2="46mm" />
+	  <line x1="5mm" y1="60mm" x2="62mm" y2="60mm" />
+	  <line x1="5mm" y1="84mm" x2="100mm" y2="84mm" />
+	  <line x1="46mm" y1="46mm" x2="46mm" y2="60mm" />
+	  <line x1="62mm" y1="46mm" x2="62mm" y2="84mm" />
+	  <line x1="71mm" y1="11mm" x2="71mm" y2="46mm" />
+	  <line x1="87mm" y1="11mm" x2="87mm" y2="46mm" />
+    </g>
+    <g id="shipmentZone" fill="black" font-family="sans-serif">
+	  <title>Total Zero Mesage or Damage Notification</title>
+	  <desc>
+	    Total Zero Mesage or Damage Notification (and Logo)
+	  </desc>
+	  <g display="none" id="shipmentZoneSingleLine" font-size="4mm" font-weight="bold">
+	    <text id="shipmentZoneSingleLineLine1" x="5mm" y="8.5mm">
+	      Responsible delivery - CO<tspan font-size="2mm" baseline-shift="-20%">2</tspan> neutral
+	    </text>
+	  </g>
+	  <g display="" id="shipmentZoneMultiLine" font-size="1.5mm">
+	    <text id="shipmentZoneMultiLineLine1" x="5mm" y="6mm">
+	      Schade die aan de buitenzijde niet zichtbaar is, moet binnen 7 dagen na uitlevering schriftelijk
+	    </text>
+	    <text id="shipmentZoneMultiLineLine2" x="5mm" y="8mm">
+	      aan DPD gemeld worden. / Notification on damage which is not recognisable from the outside has to be
+	    </text>
+	    <text id="shipmentZoneMultiLineLine3" x="5mm" y="10mm">
+	      submitted to DPD within 7 days in writing.
+	    </text>
+	  </g>
+	  <use x="87mm" y="4mm" id="logoUse" xlink:href="#logo"/>
+    </g>
+	<g id="deliveryAddress" fill="black" font-family="sans-serif">
+	  <title>Main address field</title>
+	  <desc>
+	    Contains information about the consignee and/or parcelShop
+	  </desc>
+	  <text id="deliveryAddressHeader" x="5mm" y="13mm" font-size="1.5mm">
+	    Consignee
+	  </text>
+	  <text id="deliveryAddressName1" x="5mm" y="15.5mm" font-size="2.5mm" font-weight="bold">
+	    Michiel Van Gucht
+	  </text>
+	  <text id="deliveryAddressName2" x="5mm" y="18mm" font-size="2.5mm" font-weight="bold">
+	    DPD ParcelShop - Depot 531 - Boortmeerbeek
+	  </text>
+	  <text id="deliveryAddressName3" x="5mm" y="20.5mm" font-size="2.5mm" font-weight="bold">
+	    At the attention of: Koen Verlaenen
+	  </text>
+	  <text id="deliveryAddressName3" x="5mm" y="22.5mm" font-size="2mm">
+	    Contact: Patricia Vossenaar 
+	  </text>
+	  <text id="deliveryAddressAddress1" x="5mm" y="25mm" font-size="2.5mm" font-weight="bold">
+	    Leuvensesteenweg 350
+	  </text>
+	   <text id="deliveryAddressAddress1" x="5mm" y="27.5mm" font-size="2.5mm" font-weight="bold">
+	    Bedrijvencentrum De Malt
+	  </text>
+	  <text id="deliveryAddressPhone" x="5mm" y="42.5mm" font-size="2mm">
+	    +32 (0)15 40 60 00
+	  </text>
+	  <text id="deliveryAddressLocation" x="5mm" y="45mm" font-size="2.5mm" font-weight="bold">
+	    <tspan id="deliveryAddressLocationCountry">BE</tspan>-<tspan id="deliveryAddressLocationPostCode">3190</tspan> <tspan id="deliveryAddressLocationCity">Boortmeerbeek</tspan>
+	  </text>
+	</g>
+	<use x="100mm" y="11mm" id="depotAddressUse" xlink:href="#depotAddress"/>
+	<use x="87mm" y="11mm" id="shipperAddressUse" xlink:href="#shipperAddress"/>
+    <g id="deliveryDetails" fill="black" font-family="sans-serif">
+	  <title>Customer specific info</title>
+	  <desc>
+	    Contains the customers reference numbers. (order numbers)
+	  </desc>
+	  <text id="deliveryDetailsHeader1" x="5mm" y="48mm" font-size="1.5mm">
+	    Reference 1
+	  </text>
+	  <text id="deliveryDetailsRef1" x="5mm" y="50.5mm" font-size="2mm">
+	    1000005
+	  </text>
+	  <text id="deliveryDetailsHeader2" x="5mm" y="53mm" font-size="1.5mm">
+	    Reference 2
+	  </text>
+	  <text id="deliveryDetailsRef2" x="5mm" y="55.5mm" font-size="2mm">
+	    1000005
+	  </text>
+	</g>
+	<g id="parcelDetails" fill="black" font-family="sans-serif" style="text-anchor: middle">
+	  <title>Customer specific info</title>
+	  <desc>
+	    Contains the customers reference numbers. (order numbers)
+	  </desc>
+	  <text id="parcelDetailsHeader1" x="54mm" y="48mm" font-size="1.5mm">
+	    Amount
+	  </text>
+	  <text id="parcelDetailsCount" x="54mm" y="51mm" font-size="2.5mm">
+	    <tspan id="parcelDetailsCountNumber">5</tspan> / <tspan id="parcelDetailsCountTotal">10</tspan>
+	  </text>
+	  <text id="parcelDetailsHeader2" x="54mm" y="54.5mm" font-size="1.5mm">
+	    Weight
+	  </text>
+	  <text id="parcelDetailsWeight" x="54mm" y="58mm" font-size="2.5mm">
+	    10,45 kg
+	  </text>
+	</g>
+	<g id="serviceField" fill="black" font-family="sans-serif">
+	  <title>DPD Parcel Service Information</title>
+	  <desc>
+	    Contains extra information about aditional services.
+	  </desc>
+	  <text id="serviceFieldCODTitle" x="5mm" y="63mm" font-size="2mm">
+	    COD
+	  </text>
+	  <text id="serviceFieldCODData" x="5mm" y="65mm" font-size="2mm">
+	    - Data
+	  </text>
+	  <text id="serviceFieldExportTitle" x="40mm" y="63mm" font-size="2mm">
+	    Export
+	  </text>
+	  <text id="serviceFieldExportData" x="40mm" y="65mm" font-size="2mm">
+	    - Data
+	  </text>
+	  <text id="serviceFieldDepartmentDelivery" x="5mm" y="76mm" font-size="2mm">
+	    Department Delivery
+	  </text>
+	  <text id="serviceFieldSerivceInformation" x="5mm" y="83mm" font-size="3mm" style="text-transform: uppercase;">
+	    Parcel Shop Delivery
+	  </text>
+	</g>
+	<g id="routingText" fill="black" font-family="sans-serif">
+	  <title>Routing Text Zone</title>
+	  <desc>
+	    Parcel label number, routing, sort and service data
+	  </desc>
+	  <text id="routingTextParcelNumber" x="5mm" y="90mm" font-size="2mm">
+	    <tspan id="routingTextParcelNumberDepot" font-size="6mm">0530</tspan>
+		<tspan id="routingTextParcelNumberNumber" font-size="4mm" baseline-shift="1.5mm">0123456789</tspan>
+		<tspan id="routingTextParcelNumberCheckDigit" font-size="2mm" baseline-shift="1.5mm">9</tspan>
+	  </text>
+	  <text id="routingTextHeaderTrack" x="5mm" y="92mm" font-size="1.5mm">
+	    Track
+	  </text>
+	  <text id="routingTextServiceText" x="100mm" y="88.5mm" font-size="4mm" style="text-anchor: end; text-transform: uppercase;">
+		D-B2C-PSD
+	  </text>
+	  <text id="routingTextHeaderService" x="100mm" y="90.5mm" font-size="1.5mm" style="text-anchor: end">
+	    Service
+	  </text>
+	  <text id="routingTextDText" x="52.5mm" y="99mm" font-size="11mm" style="text-anchor: middle; text-transform: uppercase;">
+	    CC-NNNN-AAAA
+	  </text>
+	  <text id="routingTextOSort" x="5mm" y="105mm" font-size="7mm" style="text-transform: uppercase;">
+	    OOOO
+	  </text>
+	  <text id="routingTextSubText" x="52.5mm" y="102.5mm" font-size="2mm" style="text-anchor: middle; text-transform: uppercase;">
+	    SSS-CC-PPPPPPP
+	  </text>
+	  <text id="routingTextLabelOrigin" x="52.5mm" y="105mm" font-size="1.5mm" style="text-anchor: middle; text-transform: uppercase;">
+	    05/01/2015 12:43 R20140901 MVGBB-SVG
+	  </text>
+	  <text id="routingTextDSort" x="100mm" y="105mm" font-size="7mm" style="text-anchor: end; text-transform: uppercase;">
+	    DDDD
+	  </text>
+	</g>
+</svg>
